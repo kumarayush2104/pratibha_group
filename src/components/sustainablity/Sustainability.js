@@ -1,0 +1,42 @@
+import React from 'react'
+
+import EducationImage from '../../assets/images/sustainability/education.jpg'
+import EnvironmentImage from '../../assets/images/sustainability/environment.jpg'
+import HealthImage from '../../assets/images/sustainability/health.jpg'
+
+import SustainabilityCard from './SustainabilityCard'
+import SustainabilityInsiderCard from './SustainabilityInsiderCard'
+
+export default function Sustainability() {
+    return (
+        <>
+            <div className="container">
+                <div className="about_section pt-5">
+                    {/* Pratibha Charitable Foundation Section Start */}
+                    <div className="row">
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-12 mb-5" data-aos="fade-up" data-aos-easing="linear">
+                            <h1 className="font-weight-bold pb-3">Pratibha Charitable Foundation</h1>
+                            <p className="pb-0 mb-0">Pratibha Group is committed to making a difference in the communities we choose to serve, work, and do business in. This dedication stretches back to the early days of our organization and is an important element of both our history and who we are today. Pratibha has a long history of corporate social responsibility, a history that has grown and diversified to meet the complexity of today's commercial environment and the concerns of a global society.   It entails investing in enhancing our communities and fostering employee volunteering. Our commitment to social responsibility is as strong now as it was when our enterprise was established.
+                                The Pratibha Charitable Foundation, founded in 1977, is dedicated to contributing nation by establishing facilities for education and youth development.<br />
+                                The Trust is committed to developing young minds and generating leaders of modern India through its projects such as Gyankunj (Day School), Vidyagram (Fully Boys Residential School), Tapti Valley International, Agarwal Vidhyavihar School, and the BRCM College of Engineering and Technology, which are guided by the ideals and values of the distinguished Chaudhary family.
+                            </p>
+                        </div>
+                    </div>
+                    {/* Pratibha Charitable Foundation Section End */}
+
+                    {/* Pratibha Charitable Relations Section Start */}
+                    <SustainabilityCard image={EnvironmentImage} title={"Environment"} content={"We, as an organization, are ecologically conscious and believe in giving nature back as much as we receive from it. With that goal, we engage in tree-planting efforts in our own companies. The act of planting a tree is a powerful symbol of life. Restoring social and ecological services in a forest landscape is becoming an increasingly critical need as we continue to face global forest loss and degradation."} cards={""} />
+                    <SustainabilityCard image={EducationImage} title={"Education"} content={<>We’re dedicated towards establishing educational facilities that function with the aim of reaching every student that needs education.<br />Gyankunj Day School embodies the highest standards of academic achievement and character development.</>} cards={<><SustainabilityInsiderCard title={"1. Friends of Tribal Society (FTS)"} content={"As an organization, we believe in the development and progress of the community we live in. To make this value a reality we made a charitable contribution to strengthen the cause of a non-profit organization - Friends of Tribal Society. The organization is headquartered in Kolkata and was established with the goal of empowering the tribal community. FTS runs One Teacher School (OTS) or Ekal Vidyalaya, which imparts non-formal primary education to children between 6 and 14 years of age. As of March 31, 2021, FTS was running 102,552 Ekal Vidyalaya supporting the basic education of 26,32,065 students."} /><SustainabilityInsiderCard title={"2. Tapti Valley International School, Surat (Tapti Valley Education Foundation)"} content={"Since the inception of the Tapti Valley Foundation, we have been associated with them as a valued member of their group of trustees. Tapti Valley International was established in 2011 as an English Medium Co-educational Day Boarding School. It provides quality education from LKG to Grade XII with a curriculum that is created in accordance with the CBSE Board's syllabus, providing a stress-free and encouraging learning atmosphere in the true sense."} />
+                        <SustainabilityInsiderCard title={"3. Agarwal Samaj Vidya Vihar Trust, Surat"} content={"Agarwal Samaj Vidhya Vihar trust is devoted to the overall development of the community and We've been associated with them as their valued trustees who believe in the trust's core ideals. Located at the heart of the city, the trust has established Agarwal Samaj vidya vihar school with the aim to provide affordable quality education while equipping students with knowledge, values, and skills in their chosen stream. It provides an ideal educational environment for students from pre-primary to higher secondary."} />
+                        <SustainabilityInsiderCard title={"4. BRCM Education Society, Bahal"} content={"We serve as trustees for educational institutions such as the BRCM Education Society, which strives to reach every student in need of education. The education society has poured efforts into developing institutes like Gyankunj Day School & BRCM College of Engineering and Technology Gyankunj Day School embodies the highest standards of academic achievement and character development. The school is located in the state of Harayana near our home village, Behl.BRCM College of Engineering and Technology is located in our native state of Haryana. BRCM-CET represents the manifestation of modern concepts of teaching pedagogy related to higher technical education judiciously blended with the ethos of Indian culture and tradition.The Graduates of the institute go to some of the best schools and institutions in the country and the vast majority of them attend their first-choice institution."} />
+                        <SustainabilityInsiderCard title={"5. Sarvajanik Education Society, Surat"} content={"We are also affiliated with B.R.C.M. College Of Business Administration as a part of their group of  trustees, which was established in 1998 by the Sarvajanik Education Society, as a proactive effort in management education to offer a B.B.A. program. The trust was founded to meet the educational requirements of the people of Surat and South Gujarat, and it has spread the light of education throughout the region by providing education from pre-primary to graduate levels. The trust has been invested in the development of one of the city's most prestigious educational institutions, allowing students to fulfill their need for quality education in one convenient location."} />
+                    </>} />
+                    <SustainabilityCard image={HealthImage} title={"Health"} content={""} cards={<><SustainabilityInsiderCard title={"Seva Hospital | Supported by Seva Foundation"} content={"In collaboration with Seva Hospital, we contributed as charity donors for the treatment of any rural individual hospitalized at their facility and in need of medical attention.  The hospital was established with the mission of bringing healthcare of International standards to the people here and it is evolving as a premier hospital in the country with the hope to touch the lives of the people we serve through their dedication toward excellence in clinical care, quality, and commitment towards their work."} />
+                        <SustainabilityInsiderCard title={"Smt R B Shah Mahavir Super Speciality Hospital"} content={"Since 1978, Shree Mahavir Health and Medical Relief Society, a public charitable trust has been a pioneer in providing high-quality healthcare services in South Gujarat. The mission of the trust and the hospital is to provide high-quality treatment at competitive pricing and liberal charity. We are associated with the trust and its mission as their valued trustee member in an attempt to strengthen their initiative towards serving people through their exceptional commitment to health care."} />
+                    </>} />
+                    {/* Pratibha Charitable Relations Section End */}
+                </div>
+            </div>
+        </>
+    )
+}

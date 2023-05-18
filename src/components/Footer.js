@@ -6,7 +6,7 @@ export default function Footer() {
         <footer>
             <div className="container top_footer">
                 <div className="row">
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-4 pl-5 hidden_mobile" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
+                    <div className="col-12 col-sm-6 col-md-4 col-lg-4 pl-5 hidden_mobile" data-aos="fade-up" data-aos-easing="linear">
                         <h3>OTHER LINKS <span className="footer_line"></span></h3>
                         <ul className="footermenu">
                             <li><Link to="/">Home</Link></li>
@@ -17,7 +17,7 @@ export default function Footer() {
                             <li><Link to="/Contact-us">Contact Us</Link></li>
                         </ul>
                     </div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-4 pl-5 pr-5 hidden_mobile" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
+                    <div className="col-12 col-sm-6 col-md-4 col-lg-4 pl-5 pr-5 hidden_mobile" data-aos="fade-up" data-aos-easing="linear">
                         <h3>INDUSTRIES <span className="footer_line"></span></h3>
                         <ul className="footermenu">
                             <li><Link to="/Businesses">Dyes & Chemicals</Link></li>
@@ -29,7 +29,7 @@ export default function Footer() {
                             <li><Link to="/Businesses">Furnishing</Link></li>
                         </ul>
                     </div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-4 pl-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                    <div className="col-12 col-sm-6 col-md-4 col-lg-4 pl-5" data-aos="fade-up">
                         <h3>CONTACT US <span className="footer_line"></span></h3>
                         <ul className="footermenu">
                             <li><a href="mailto:info@pratibhagroup.co.in">info@pratibhagroup.co.in</a></li>

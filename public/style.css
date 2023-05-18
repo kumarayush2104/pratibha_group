@@ -184,6 +184,7 @@ nav.navbar-light .navbar-nav .nav-item a:after {
     background-color: #0068b7;
 }
 
+
 nav.navbar-light .navbar-nav .nav-item.dropdown a:after {
     content: '';
     border: 1px solid #0068b7;
@@ -232,6 +233,7 @@ nav.navbar-light .navbar-nav .nav-item .dropdown-menu a.dropdown-item:after {
 nav.navbar-light .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover:after {
     width: 100%;
     border: 1px solid #0068b7;
+    ;
 }
 
 nav.navbar-light .navbar-nav .nav-item:hover .dropdown-menu a {
@@ -606,8 +608,7 @@ button.owl-prev span {
     font-size: 17px;
 }
 
-.corporate-bg {
-    background-image: url(../images/corporate.jpg);
+.value-vision-sub-card {
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -615,58 +616,6 @@ button.owl-prev span {
     border-radius: 24px;
     height: 100%;
 }
-
-.sense-bg {
-    background-image: url(../images/sense.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 60px 50px;
-    border-radius: 24px;
-    height: 100%;
-}
-
-.economic-bg {
-    background-image: url(../images/economic.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 60px 50px;
-    border-radius: 24px;
-    height: 100%;
-}
-
-.safety-bg {
-    background-image: url(../images/safety.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 60px 50px;
-    border-radius: 24px;
-    height: 100%;
-}
-
-.respect-bg {
-    background-image: url(../images/respect.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 60px 50px;
-    border-radius: 24px;
-    height: 100%;
-}
-
-.customer-bg {
-    background-image: url(../images/customer.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 60px 50px;
-    border-radius: 24px;
-    height: 100%;
-}
-
-
 
 .about_section {
     padding: 100px 0px 30px 0px;
@@ -2429,7 +2378,7 @@ img.award_icon {
     bottom: 30px;
     right: 30px;
     transition: background-color .3s, opacity .5s, visibility .5s;
-    opacity: 1;
+    opacity: 0;
     visibility: hidden;
     z-index: 99;
 }
@@ -2444,7 +2393,12 @@ img.award_icon {
     line-height: 38px;
 }
 
+
+
+
 /****************************************** Media Query Css End ******************************************/
+
+
 
 /* START Scrollbar */
 html {
@@ -2494,6 +2448,8 @@ html {
     background-image: url(../images/bg.jpg);
     background-size: 100%;
 }
+
+
 
 #circle {
     position: relative;

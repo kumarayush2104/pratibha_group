@@ -44,7 +44,7 @@ export default function Home() {
             </div>
             {/* Main Banner End */}
             {/* About Section Start */}
-            <div className="container" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
+            <div className="container" data-aos="fade-up" data-aos-easing="linear">
                 <div className="about_section">
                     <div className="row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 text-center position-relative">

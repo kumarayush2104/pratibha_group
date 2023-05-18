@@ -1,10 +1,3 @@
-// Animate on Scroll Library
-jQuery(window).on('load', function () {
-    AOS.init({
-        easing: 'ease-in-out-sine'
-    });
-});
-
 // Own carousel Library
 $(document).ready(function () {
     var owl = $('.owl-carousel');

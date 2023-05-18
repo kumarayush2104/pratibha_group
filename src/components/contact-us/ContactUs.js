@@ -26,7 +26,7 @@ export default function ContactUs() {
             <div className="contact-us-section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-sm-12 col-md-12 col-lg-12 mt-3 mb-3" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-12 mt-3 mb-3" data-aos="fade-up" data-aos-easing="linear">
                             <div className="row contact-details mb-4">
                                 <ContactUsCard title={"Address"} content={[" Block No. 309, N.H.No. 8,", <br />, "Baleshwar-Palsana", <br />, "Surat - 394317, Gujarat, India."]} image={LocationLogo} />
                                 <ContactUsCard title={"Phone Number"} content={<><a href='tel:+91 261 289 7741'>+91-261-289-7741</a><br /><a href="tel:+91 261 289 7747">+91-261-289-7747</a></>} image={PhoneLogo} />
