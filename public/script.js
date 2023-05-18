@@ -18,24 +18,3 @@ $(document).ready(function () {
         autoplay: false,
     });
 })
-
-// Responsive Navigation Bar menu trigger
-$('.btn-nav').on('click', function () {
-    $(".responsive-navigation").toggleClass('open');
-});
-
-// Top Down button
-var btn = $('#bottomtop');
-
-$(window).scroll(function () {
-    if ($(window).scrollTop() > 300) {
-        btn.addClass('show');
-    } else {
-        btn.removeClass('show');
-    }
-});
-
-btn.on('click', function (e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: 0 }, '300');
-});

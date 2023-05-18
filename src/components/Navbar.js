@@ -1,14 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../assets/images/logo.png'
+import $ from 'jquery'
 
 export default function Navbar() {
+
+    // Responsive Navigation Bar menu trigger
+    const toggleResponsiveNavigationbar = () => {
+        $(".responsive-navigation").toggleClass('open');
+    }
+    
     return (
         <div className="main_menu_section">
             <div className="container position-relative">
                 <div>
                     <nav className="navbar navbar-expand-lg navbar-light w-100 responsive-navigation pt-3 pb-3">
-                        <button className="navbar-toggler btn-nav" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <button className="navbar-toggler btn-nav" type="button" onClick={toggleResponsiveNavigationbar} data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                             <i className="fa fa-bars"></i>
                             <i className="fa fa-close"></i>
                         </button>

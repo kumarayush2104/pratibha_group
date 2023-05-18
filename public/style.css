@@ -2429,7 +2429,7 @@ img.award_icon {
     bottom: 30px;
     right: 30px;
     transition: background-color .3s, opacity .5s, visibility .5s;
-    opacity: 0;
+    opacity: 1;
     visibility: hidden;
     z-index: 99;
 }
@@ -2444,12 +2444,7 @@ img.award_icon {
     line-height: 38px;
 }
 
-
-
-
 /****************************************** Media Query Css End ******************************************/
-
-
 
 /* START Scrollbar */
 html {
@@ -2500,8 +2495,6 @@ html {
     background-size: 100%;
 }
 
-
-
 #circle {
     position: relative;
     width: 100%;
@@ -2514,9 +2507,6 @@ html {
     height: 530px;
     background-repeat: no-repeat;
 }
-
-
-
 
 #circle text {
     font-size: 12px;
