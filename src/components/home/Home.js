@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 import BannerImage from '../../assets/images/home/banner.jpg'
@@ -22,6 +22,23 @@ import HealthImage from '../../assets/images/home/health.png'
 import CommunityImage from '../../assets/images/home/community.png'
 
 export default function Home() {
+
+    useEffect(() => {
+        window.$(function ($) {
+            $(document).ready(function () {
+                var owl = $('.owl-carousel');
+                owl.owlCarousel({
+                    items: 1,
+                    loop: false,
+                    nav: true,
+                    dots: false,
+                    margin: 0,
+                    smartSpeed: 2000,
+                    autoplay: false,
+                });
+            })
+        })
+    })
     return (
         <>
             {/* Main Banner Start */}

@@ -59,10 +59,4 @@ function App() {
   );
 }
 
-// 1. Check for data-aoe-delay
-// 2. Check for className and class
-// 3. Check for Style
-// 4. Check for Comments
-// 5. Complete Navbar
-
 export default App;
